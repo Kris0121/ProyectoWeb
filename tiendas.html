@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tiendas - Intu Xanadú</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Cal+Sans&family=Cherry+Cream+Soda&family=Jockey+One&family=Lexend:wght@100..900&family=Macondo&family=Michroma&family=Outfit:wght@100..900&family=Quintessential&family=Zen+Dots&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+        
+        <link rel="stylesheet" href="estilo-xanadu.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img
+                            src="images/logo-intu-xanadu.png"
+                            alt="Logo Centro Comercial Xanadú"
+                            class="img-fluid"
+                            style="max-height: 60px" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="index.html">Portada</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="ocio.html">Ocio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="cine.html">Cine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="pista_de_nieve.html">Pista de Hielo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="tiendas.html">Tiendas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="restaurantes.html">Restauración</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="visitanos.html">Visítanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="contacto.html">Contáctanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="aviso-legal.html">Aviso Legal</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1><i class="fas fa-shopping-bag"></i> Tiendas</h1>
+                    <p class="hero-subtitle">Descubre las mejores marcas en Intu Xanadú</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="container fade-in">
+            <section>
+                <div class="row mb-4">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-title">Nuestras Tiendas</h2>
+                        <p class="lead">
+                            En Intu Xanadú encontrarás las mejores marcas y tiendas para tu experiencia de compra
+                            perfecta. Desde moda y complementos hasta tecnología, deporte y hogar. ¡Descubre todas
+                            nuestras tiendas!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stores Grid -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- Store 1: Zara -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/zara.png"
+                                    alt="Zara"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#zaraModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Zara</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta baja</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 10:00 - 22:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-tshirt text-primary"></i> Moda Hombre, Mujer, Niños</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Store 2: El Corte Inglés -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/corteingles.png"
+                                    alt="El Corte Inglés"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#corteinglesModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>El Corte Inglés</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta baja y primera planta</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 10:00 - 22:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-store text-primary"></i> Grandes Almacenes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Store 3: Primark -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/primark.jpg"
+                                    alt="Primark"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#primarkModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Primark</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta baja</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 10:00 - 22:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-tshirt text-primary"></i> Moda Low Cost, Hogar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Store 4: MediaMarkt -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/mediamarkt.jpg"
+                                    alt="MediaMarkt"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#mediamarktModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>MediaMarkt</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Primera planta</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 10:00 - 22:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span
+                                        ><i class="fas fa-laptop text-primary"></i> Electrónica, Electrodomésticos</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Store 5: Decathlon -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/decathlon.jpg"
+                                    alt="Decathlon"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#decathlonModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Decathlon</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta baja</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 10:00 - 22:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-running text-primary"></i> Artículos Deportivos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Store 6: H&M -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/hm.jpg"
+                                    alt="H&M"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#hmModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>H&M</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Primera planta</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 10:00 - 22:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-tshirt text-primary"></i> Moda, Hogar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <h4>Intu Xanadú</h4>
+                        <p>Centro Comercial y de Ocio</p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Puerto de Navacerrada, S/N, 28939 Arroyomolinos,
+                            Madrid
+                        </p>
+                        <p><i class="fas fa-phone"></i> 916 89 93 00</p>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <h4>Horarios</h4>
+                        <p><i class="far fa-clock"></i> Lunes a domingo: 10:00 - 22:00</p>
+                        <p><i class="fas fa-utensils"></i> Restauración: 10:00 - 00:00</p>
+                        <p><i class="fas fa-film"></i> Ocio: Consultar horarios específicos</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Síguenos</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#" class="btn btn-outline-light">Suscríbete a la newsletter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col text-center">
+                        <p class="mb-0">© 2025 Intu Xanadú. Todos los derechos reservados.</p>
+                        <p class="mt-2">Diseñado por Cristian Guerrero, Diego Monsalve, Hugo Lopez, Daniel Alaez</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- MODALS -->
+        <!-- Zara Modal -->
+        <div class="modal fade" id="zaraModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Zara</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img
+                                    src="images/zaraa.jpg"
+                                    class="img-fluid rounded"
+                                    alt="Zara interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta baja
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 10:00 - 22:00</p>
+                                <p>
+                                    <i class="fas fa-tshirt text-primary"></i> <strong>Tipo:</strong> Moda Hombre,
+                                    Mujer, Niños
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.zara.com" target="_blank">www.zara.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Tarjetas</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wheelchair feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Accesible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-tag feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Promociones</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-shopping-bag feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Click & Collect</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre Zara</h4>
+                            <p>
+                                Zara es una de las principales empresas de moda international. Pertenece a Inditex, uno
+                                de los mayores grupos de distribución del mundo. En Intu Xanadú, Zara cuenta con una
+                                amplia tienda de dos plantas donde podrás encontrar las últimas tendencias en moda para
+                                mujer, hombre y niños.
+                            </p>
+                            <p>
+                                Su propuesta de moda incluye diseños actualizados semanalmente con las últimas
+                                tendencias, ofreciendo un amplio abanico de posibilidades para todos los estilos y
+                                ocasiones, desde ropa casual hasta prendas más elegantes y formales.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.zara.com" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- El Corte Inglés Modal -->
+        <div class="modal fade" id="corteinglesModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">El Corte Inglés</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img
+                                    src="images/el-corte-ingles-05-1200x800.jpg"
+                                    class="img-fluid rounded"
+                                    alt="El Corte Inglés interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta baja y primera planta
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 10:00 - 22:00</p>
+                                <p>
+                                    <i class="fas fa-store text-primary"></i> <strong>Tipo:</strong> Grandes Almacenes
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.elcorteingles.es" target="_blank">www.elcorteingles.es</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Financiación</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-gift feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Gift Card</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-utensils feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Restauración</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-shipping-fast feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Envío a domicilio</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre El Corte Inglés</h4>
+                            <p>
+                                El Corte Inglés es el mayor grupo de grandes almacenes en España. En su establecimiento
+                                de Intu Xanadú encontrarás todo tipo de productos: moda, hogar, electrónica, perfumería,
+                                joyería, deportes, supermercado y mucho más. También cuenta con servicio de
+                                restauración.
+                            </p>
+                            <p>
+                                Destaca por la calidad y variedad de sus productos, así como por ofrecer un servicio
+                                personalizado y garantías en todas sus compras. Dispone de atención al cliente y
+                                diversos servicios añadidos como arreglos de ropa, envoltorio de regalo o tarjeta de
+                                fidelización con ventajas exclusivas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.elcorteingles.es" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Primark Modal -->
+        <div class="modal fade" id="primarkModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Primark</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="images/primarkkjpg.jpg" class="img-fluid rounded" alt="Primark interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta baja
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 10:00 - 22:00</p>
+                                <p>
+                                    <i class="fas fa-tshirt text-primary"></i> <strong>Tipo:</strong> Moda Low Cost,
+                                    Hogar
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.primark.com" target="_blank">www.primark.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-euro-sign feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Precios bajos</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wheelchair feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Accesible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-child feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Moda infantil</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-home feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Decoración</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre Primark</h4>
+                            <p>
+                                Primark es una cadena de tiendas de ropa internacional que ofrece 'moda a precios
+                                increíbles'. En su tienda de Intu Xanadú podrás encontrar ropa para mujer, hombre y
+                                niño, así como productos para el hogar, belleza y accesorios a precios muy competitivos.
+                            </p>
+                            <p>
+                                La tienda se caracteriza por ofrecer las últimas tendencias a precios muy asequibles,
+                                con una gran rotación de stock que permite renovar frecuentemente sus colecciones.
+                                Además de ropa, también encontrarás una amplia sección de accesorios, calzado y
+                                artículos para el hogar.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.primark.com" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MediaMarkt Modal -->
+        <div class="modal fade" id="mediamarktModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">MediaMarkt</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="images/mediamarkkk.jpg" class="img-fluid rounded" alt="MediaMarkt interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Primera planta
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 10:00 - 22:00</p>
+                                <p>
+                                    <i class="fas fa-laptop text-primary"></i> <strong>Tipo:</strong> Electrónica,
+                                    Electrodomésticos
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.mediamarkt.es" target="_blank">www.mediamarkt.es</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Financiación</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-tools feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Servicio técnico</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-truck feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Envío a domicilio</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-undo feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Devoluciones</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre MediaMarkt</h4>
+                            <p>
+                                MediaMarkt es una cadena de establecimientos de grandes superficies, dedicada a la venta
+                                de electrodomésticos, informática y electrónica de consumo. En su tienda de Intu Xanadú
+                                encontrarás todo tipo de productos tecnológicos: televisores, ordenadores, smartphones,
+                                electrodomésticos y mucho más.
+                            </p>
+                            <p>
+                                La tienda ofrece precios competitivos, promociones frecuentes y la posibilidad de probar
+                                muchos de los productos antes de comprarlos. Dispone también de asesoramiento
+                                especializado, servicio técnico y diversas opciones de financiación para facilitar tus
+                                compras.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.mediamarkt.es" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decathlon Modal -->
+        <div class="modal fade" id="decathlonModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Decathlon</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img
+                                    src="images/Decathlon-Motril-2.jpg"
+                                    class="img-fluid rounded"
+                                    alt="Decathlon interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Segunda planta
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 10:00 - 22:00</p>
+                                <p>
+                                    <i class="fas fa-running text-primary"></i> <strong>Tipo:</strong> Deportes, Ropa y
+                                    accesorios
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.decathlon.es" target="_blank">www.decathlon.es</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-exchange-alt feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Cambios fáciles</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-bicycle feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Montaje de bicicletas</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-shipping-fast feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Entrega rápida</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-users feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Asesoramiento deportivo</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre Decathlon</h4>
+                            <p>
+                                Decathlon es la tienda ideal para los amantes del deporte. Ofrece una amplia gama de
+                                productos para más de 60 disciplinas deportivas, desde running, ciclismo o natación
+                                hasta deportes de montaña y equipo fitness.
+                            </p>
+                            <p>
+                                Con precios asequibles, buena calidad y marcas propias, Decathlon también ofrece
+                                asesoramiento personalizado, talleres de reparación y servicios especiales como el
+                                montaje de bicicletas o ajustes de material deportivo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.decathlon.es" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- H&M Modal -->
+        <div class="modal fade" id="hmModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">H&M</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="images/tiendas-hm.jpg" class="img-fluid rounded" alt="H&M interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta baja
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 10:00 - 22:00</p>
+                                <p>
+                                    <i class="fas fa-tshirt text-primary"></i> <strong>Tipo:</strong> Moda, Accesorios
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.hm.com" target="_blank">www.hm.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-leaf feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Moda sostenible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-tags feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Nuevas colecciones</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-recycle feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Reciclaje de ropa</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-percentage feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Descuentos exclusivos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre H&M</h4>
+                            <p>
+                                H&M es una de las principales cadenas de moda a nivel mundial. Ofrece ropa para mujer,
+                                hombre, niños y hogar, con colecciones que combinan tendencias, calidad y buenos
+                                precios.
+                            </p>
+                            <p>
+                                En su tienda de Intu Xanadú podrás descubrir moda actualizada constantemente, servicios
+                                de reciclaje de textiles y una fuerte apuesta por la sostenibilidad a través de su línea
+                                Conscious.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.hm.com" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

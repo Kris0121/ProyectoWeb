@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Restaurantes - Intu Xanadú</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Cal+Sans&family=Cherry+Cream+Soda&family=Jockey+One&family=Lexend:wght@100..900&family=Macondo&family=Michroma&family=Outfit:wght@100..900&family=Quintessential&family=Zen+Dots&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+        
+        <!-- Estilo Tienda-Restaurante -->
+        <link rel="stylesheet" href="estilo-xanadu.css">
+    </head>
+    <body class="fade-in">
+        <!-- Header Section -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img
+                            src="images/logo-intu-xanadu.png"
+                            alt="Logo Centro Comercial Xanadú"
+                            class="img-fluid"
+                            style="max-height: 60px" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="index.html">Portada</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="ocio.html">Ocio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="cine.html">Cine</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="pista_de_nieve.html">Pista de Hielo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="tiendas.html">Tiendas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="restaurantes.html">Restauración</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="visitanos.html">Visítanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="contacto.html">Contáctanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="aviso-legal.html">Aviso Legal</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <div class="hero-content container">
+                <h1><i class="fas fa-utensils"></i> Restaurantes</h1>
+                <p class="hero-subtitle">Descubre las mejores opciones gastronómicas en el corazón de Xanadú</p>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main class="container">
+            <section>
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title">Nuestros Restaurantes</h2>
+                        <p class="lead">
+                            En Intu Xanadú encontrarás una amplia oferta gastronómica para todos los gustos. Desde
+                            comida rápida hasta restaurantes gourmet, pasando por cafeterías y opciones saludables.
+                            ¡Descubre nuestros espacios de restauración!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Restaurant Grid -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- Restaurant 1: VIPS -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/logo-vips.jpg"
+                                    alt="VIPS"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#vipsModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>VIPS</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta baja, Local 47</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 10:00 - 23:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-utensils text-primary"></i> Americano, Internacional</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant 2: 100 Montaditos -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/100Montaditos.jpg"
+                                    alt="100 Montaditos"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#montaditosModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>100 Montaditos</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta baja, Local 32</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 12:00 - 00:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-utensils text-primary"></i> Español, Tapas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant 3: Ginos -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/ginos.jpg"
+                                    alt="Ginos"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#ginosModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Ginos</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta primera, Local 72</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 13:00 - 23:30</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-utensils text-primary"></i> Italiano, Pasta, Pizza</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant 4: McDonald's -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/mcdonalds.png"
+                                    alt="McDonalds"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#mcdonaldsModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>McDonald's</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta baja, Local 12</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 10:00 - 00:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-utensils text-primary"></i> Fast Food, Hamburguesas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant 5: Foster's Hollywood -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/foster.jpg"
+                                    alt="Fosters Hollywood"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#fostersModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Foster's Hollywood</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta primera, Local 83</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 13:00 - 00:30</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-utensils text-primary"></i> Americano, Carnes, Tex-Mex</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant 6: Starbucks -->
+                    <div class="col">
+                        <div class="restaurant-card">
+                            <div class="card-img-container">
+                                <img
+                                    src="images/starbucks.jpg"
+                                    alt="Starbucks"
+                                    class="img-fluid"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#starbucksModal"
+                                    style="cursor: pointer" />
+                            </div>
+                            <div class="card-body">
+                                <h3>Starbucks</h3>
+                                <p><i class="fas fa-map-marker-alt text-primary"></i> Planta baja, Local 28</p>
+                                <p class="text-muted"><i class="far fa-clock text-primary"></i> 09:00 - 22:00</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-coffee text-primary"></i> Café, Postres, Snacks</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <h4>Intu Xanadú</h4>
+                        <p>Centro Comercial y de Ocio</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Autovía A-5, km 23.5, 28939 Arroyomolinos, Madrid</p>
+                        <p><i class="fas fa-phone"></i> 91 659 98 00</p>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <h4>Horarios</h4>
+                        <p><i class="far fa-clock"></i> Lunes a domingo: 10:00 - 22:00</p>
+                        <p><i class="fas fa-utensils"></i> Restauración: 10:00 - 00:00</p>
+                        <p><i class="fas fa-film"></i> Ocio: Consultar horarios específicos</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Síguenos</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col text-center">
+                        <p class="mb-0">© 2025 Intu Xanadú. Todos los derechos reservados.</p>
+                        <p class="mb-0">Diseñado por Cristian Guerrero, Diego Monsalve, Hugo Lopez, Daniel Alaez</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- MODALS -->
+        <!-- VIPS Modal -->
+        <div class="modal fade" id="vipsModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">VIPS</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="images/vips_02.png" class="img-fluid rounded" alt="VIPS interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta baja, Local 47
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 10:00 - 23:00</p>
+                                <p>
+                                    <i class="fas fa-utensils text-primary"></i> <strong>Tipo:</strong> Americano,
+                                    Internacional
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.vips.es" target="_blank">www.vips.es</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wifi feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">WiFi Gratis</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wheelchair feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Accesible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-baby feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Cambiador</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Tarjetas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre VIPS</h4>
+                            <p>
+                                VIPS es una cadena de restaurantes de estilo americano que ofrece una amplia variedad de
+                                platos, desde hamburguesas y sándwiches hasta ensaladas, pasta y carnes. También cuenta
+                                con una selección de desayunos disponibles durante todo el día.
+                            </p>
+                            <p>
+                                En VIPS encontrarás un ambiente familiar y acogedor, perfecto para cualquier ocasión:
+                                desayunos, comidas, cenas o simplemente para tomar algo. Además, dispone de una carta
+                                especial para niños.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.vips.es" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 100 Montaditos Modal -->
+        <div class="modal fade" id="montaditosModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">100 Montaditos</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img
+                                    src="images/100_montaditos_nueva_imagen_de_marca.jpg"
+                                    class="img-fluid rounded"
+                                    alt="100 Montaditos interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta baja, Local 32
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 12:00 - 00:00</p>
+                                <p>
+                                    <i class="fas fa-utensils text-primary"></i> <strong>Tipo:</strong> Español, Tapas
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.100montaditos.com" target="_blank">www.100montaditos.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wifi feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">WiFi Gratis</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wheelchair feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Accesible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-beer feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Cerveza</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Tarjetas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre 100 Montaditos</h4>
+                            <p>
+                                100 Montaditos es una cadena española de restauración especializada en pequeños
+                                sándwiches (montaditos) con una gran variedad de rellenos. Ofrecen hasta 100 tipos
+                                diferentes de montaditos con ingredientes tradicionales de la gastronomía española e
+                                influencias internacionales.
+                            </p>
+                            <p>
+                                Destaca por su relación calidad-precio y por sus promociones, especialmente el famoso
+                                "Euromanía" los miércoles, con productos a 1€. Un lugar ideal para tapear en grupo y
+                                disfrutar de una cerveza en un ambiente informal y animado.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.100montaditos.com" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ginos Modal -->
+        <div class="modal fade" id="ginosModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Ginos</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="images/ginos-511x330.jpg" class="img-fluid rounded" alt="Ginos interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta primera, Local 72
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 13:00 - 23:30</p>
+                                <p>
+                                    <i class="fas fa-utensils text-primary"></i> <strong>Tipo:</strong> Italiano, Pasta,
+                                    Pizza
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.ginos.es" target="_blank">www.ginos.es</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wifi feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">WiFi Gratis</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wheelchair feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Accesible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-baby feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Cambiador</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Tarjetas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre Ginos</h4>
+                            <p>
+                                Ginos es una cadena de restaurantes especializados en comida italiana. Su carta incluye
+                                una amplia variedad de pastas, pizzas, ensaladas y postres típicos italianos. Los platos
+                                se elaboran siguiendo las recetas tradicionales y con ingredientes de calidad.
+                            </p>
+                            <p>
+                                El ambiente de Ginos es cálido y acogedor, con decoración que evoca a la Italia
+                                tradicional. Es ideal tanto para comidas familiares como para cenas en pareja. Ofrece
+                                menús del día a precios asequibles y una carta variada con opciones para todos los
+                                gustos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.ginos.es" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- McDonald's Modal -->
+        <div class="modal fade" id="mcdonaldsModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">McDonals</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="images/MCDonalds-1.jpg" class="img-fluid rounded" alt="Ginos interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta primera, Local 72
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 10:00 - 00:00</p>
+                                <p>
+                                    <i class="fas fa-utensils text-primary"></i> <strong>Tipo:</strong>Comida rápida,
+                                    Hamburguesas
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://mcdonalds.es/" target="_blank">mcdonalds.es</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wifi feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">WiFi Gratis</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wheelchair feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Accesible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-baby feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Cambiador</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Tarjetas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre Ginos</h4>
+                            <p>
+                                McDonald's es una de las cadenas de comida rápida más reconocidas a nivel mundial. Su
+                                menú incluye hamburguesas, patatas fritas, ensaladas, postres, desayunos y opciones para
+                                niños como el Happy Meal. También ofrece alternativas sin gluten y menús adaptados para
+                                distintos gustos y necesidades.
+                            </p>
+                            <p>
+                                El local del McDonald’s en intu Xanadú ofrece un ambiente moderno y funcional, ideal
+                                para una comida rápida en familia, con amigos o incluso para llevar. Cuenta con
+                                servicios como kioscos digitales para pedir, zona de juegos infantiles (según
+                                disponibilidad) y servicio de recogida móvil.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://mcdonalds.es/" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fosters modal -->
+        <div class="modal fade" id="fostersModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Foster's Hollywood</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img
+                                    src="images/FostersHollywoodMagallanes.jpg"
+                                    class="img-fluid rounded"
+                                    alt="Ginos interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta primera, Local 72
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong>13:00 - 00:30</p>
+                                <p>
+                                    <i class="fas fa-utensils text-primary"></i> <strong>Tipo:</strong>Americana,
+                                    Hamburguesas, Costillas
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.fostershollywood.es/" target="_blank">fostershollywood.es</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wifi feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">WiFi Gratis</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wheelchair feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Accesible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-baby feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Cambiador</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Tarjetas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre Foster’s Hollywood</h4>
+                            <p>
+                                Foster's Hollywood es una cadena de restaurantes especializada en cocina americana. Su
+                                carta ofrece una amplia selección de hamburguesas, costillas a la barbacoa, sándwiches,
+                                ensaladas, entrantes clásicos como los aros de cebolla o los nachos, y postres
+                                contundentes al más puro estilo estadounidense.
+                            </p>
+                            <p>
+                                El restaurante tiene una ambientación inspirada en el Hollywood clásico, con un estilo
+                                acogedor y tematizado que lo hace ideal para comidas en grupo, salidas en familia o
+                                cenas informales. También dispone de menús del día, opciones para niños y alternativas
+                                sin gluten.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.fostershollywood.es/" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Starbucks modal -->
+        <div class="modal fade" id="starbucksModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Starbucks</h3>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-black"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img
+                                    src="images/STARBUCKSCC-Splau-comunicado02.jpg"
+                                    class="img-fluid rounded"
+                                    alt="Ginos interior" />
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h4>Información</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <strong>Ubicación:</strong> Planta primera, Local 72
+                                </p>
+                                <p><i class="far fa-clock text-primary"></i> <strong>Horario:</strong> 09:00 - 22:00</p>
+                                <p>
+                                    <i class="fas fa-utensils text-primary"></i> <strong>Tipo:</strong>Cafetería, Café,
+                                    Repostería
+                                </p>
+                                <p><i class="fas fa-phone text-primary"></i> <strong>Teléfono:</strong> 91 XXX XX XX</p>
+                                <p>
+                                    <i class="fas fa-globe text-primary"></i> <strong>Web:</strong>
+                                    <a href="https://www.starbucks.es/" target="_blank">starbucks.es</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-features">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wifi feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">WiFi Gratis</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-wheelchair feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Accesible</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-baby feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Cambiador</p>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mb-3">
+                                    <i class="fas fa-credit-card feature-icon fa-2x mb-2"></i>
+                                    <p class="mb-0">Tarjetas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-info">
+                            <h4>Sobre Starbucks</h4>
+                            <p>
+                                Starbucks es una reconocida cadena internacional de cafeterías que ofrece una gran
+                                variedad de cafés, tés, bebidas frías y calientes, así como opciones de repostería,
+                                bocadillos y productos de temporada. Es famoso por permitir personalizar las bebidas al
+                                gusto del cliente.
+                            </p>
+                            <p>
+                                El local de Starbucks en intu Xanadú ofrece un ambiente moderno y relajado, ideal para
+                                tomar un café mientras trabajas, estudias o te reúnes con amigos. Dispone de cómodas
+                                zonas para sentarse, conexión WiFi gratuita y un servicio ágil tanto en barra como para
+                                llevar.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.starbucks.es/" target="_blank" class="btn btn-primary">Ver web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

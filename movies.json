@@ -1,0 +1,84 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Thunderbolts",
+      "director": "Eric Pearson, LeeSung, Joanna Calo",
+      "cast": "Sebastian Stan, Florence Pugh, Wyat Russell y más",
+      "synopsis": "Película de Marvel en la que -como si de un Escuadrón suicida se tratase- un grupo de villanos son enviados a misiones por encargo del gobierno.",
+      "poster": "images/thunderbolts.jpg",
+      "ticketUrl": "https://www.cinesa.es/cines/intu-xanadu/",
+      "genre": "Acción",
+      "duration": "120",
+      "rating": "PG-13",
+      "releaseDate": "2025-05-02"
+    },
+    {
+      "id": 2,
+      "title": "Minecraft",
+      "director": "Jared Hess",
+      "cast": "Jack Black, Jason Momoa, Danielle Brooks, Emma Myers",
+      "synopsis": "Bienvenido al mundo de Minecraft, donde la creatividad no sólo ayuda a crear, sino que es esencial para la supervivencia.",
+      "poster": "images/minecraft.jpg",
+      "ticketUrl": "https://www.cinesa.es/peliculas/una-pelicula-de-minecraft/HO00001976/",
+      "genre": "Aventura",
+      "duration": "110",
+      "rating": "PG",
+      "releaseDate": "2025-04-04"
+    },
+    {
+      "id": 3,
+      "title": "In the Lost Lands",
+      "director": "Paul W.S. Anderson",
+      "cast": "Milla Jovovich, Dave Bautista",
+      "synopsis": "Basada en el relato de George R.R. Martin. Una reina desesperada por encontrar la felicidad en el amor envía a una poderosa bruja a las Tierras Perdidas.",
+      "poster": "images/inthelostlands.jpg",
+      "ticketUrl": "https://entradas.cinexanadu.com",
+      "genre": "Fantasía",
+      "duration": "105",
+      "rating": "R",
+      "releaseDate": "2025-03-07"
+    },
+    {
+      "id": 4,
+      "title": "Warfare",
+      "director": "Ray Mendoza y Alex Garland",
+      "cast": "D'Pharaoh Woon-A-Tai, Charles Melton, Joseph Quinn",
+      "synopsis": "Basada en las experiencias reales del ex marine Ray Mendoza durante la guerra de Irak. Una historia visceral sobre la guerra moderna.",
+      "poster": "images/Warfare.jpg",
+      "ticketUrl": "https://www.cinesa.es/peliculas/warfare-tiempo-de-guerra/HO00002145/",
+      "genre": "Drama",
+      "duration": "104",
+      "rating": "R",
+      "releaseDate": "2025-01-10"
+    },
+    {
+      "id": 5,
+      "title": "Until Dawn",
+      "director": "David F. Sandberg",
+      "cast": "Ella Rubin, Michael Cimino, Ji-young Yoo, Odessa A'zion",
+      "synopsis": "Un año después de la misteriosa desaparición de su hermana Melanie, Clover y sus amigas buscan respuestas en un valle remoto.",
+      "poster": "images/untildawn.jpg",
+      "ticketUrl": "https://www.cinesa.es/peliculas/until-dawn/HO00002115/",
+      "genre": "Terror",
+      "duration": "109",
+      "rating": "R",
+      "releaseDate": "2025-04-25"
+    },
+    {
+      "id": 6,
+      "title": "Sinners",
+      "director": "Ryan Coogler",
+      "cast": "Michael B. Jordan, Delroy Lindo, Jack O'Connell, Hailee Steinfeld",
+      "synopsis": "Los hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor los espera.",
+      "poster": "images/sinners.jpg",
+      "ticketUrl": "https://www.cinesa.es/peliculas/los-pecadores/HO00002083/",
+      "genre": "Thriller",
+      "duration": "116",
+      "rating": "R",
+      "releaseDate": "2025-03-07"
+    }
+  ],
+  "lastUpdated": "2025-06-02T10:00:00Z",
+  "version": "1.0"
+}
