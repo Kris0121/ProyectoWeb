@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: "Lexend", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Lexend", sans-serif;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     min-height: 100vh;
 }
@@ -53,6 +53,7 @@ body {
     color: var(--text-dark) !important;
     margin: 0 5px;
     font-weight: 500;
+    font-family: "Michroma";
 }
 
 .nav-link:hover {
@@ -85,7 +86,7 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-    margin-top: 76px;
+    margin-top: 40px;
 }
 
 .hero-section::before {
@@ -244,6 +245,10 @@ body {
     padding: 30px;
     position: relative;
     background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+}
+
+.feature-card img {
+    height: 263px;
 }
 
 .card-icon-index {
@@ -811,6 +816,36 @@ main {
     padding: 25px;
 }
 
+/* Modal de Confirmación - Estilo Personalizado */
+.modal-confirmacion .modal-content {
+    border-radius: 1rem;
+    border: 2px solid #007bff;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+    animation: animacionModal 0.4s ease;
+}
+
+.modal-confirmacion .modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: none;
+}
+
+.modal-confirmacion .modal-footer {
+    border-top: none;
+    justify-content: space-between;
+}
+
+@keyframes animacionModal {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 /* Contact Page Personalized-style */
 /* Contact Form Section */
 .contact-section {
@@ -1079,7 +1114,7 @@ footer p {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {

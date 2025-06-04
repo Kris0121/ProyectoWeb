@@ -52,7 +52,7 @@
                                 <a class="nav-link fw-bold" href="tiendas.html">Tiendas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-bold" href="restaurantes.html">Restauración</a>
+                                <a class="nav-link fw-bold" href="restaurantes.html">Restaurantes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fw-bold" href="visitanos.html">Visítanos</a>
@@ -273,7 +273,7 @@
                 }
             }
 
-            // Función de respaldo con datos hardcodeados
+            // Función de respaldo con datos 
             function loadFallbackMovies() {
                 const fallbackMovies = [
                     {
@@ -416,27 +416,6 @@
                     }
                 });
             });
-
-            // Back to top button functionality
-            const backToTop = document.querySelector(".back-to-top");
-
-            if (backToTop) {
-                window.addEventListener("scroll", () => {
-                    if (window.scrollY > 300) {
-                        backToTop.style.display = "flex";
-                    } else {
-                        backToTop.style.display = "none";
-                    }
-                });
-
-                backToTop.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    window.scrollTo({
-                        top: 0,
-                        behavior: "smooth"
-                    });
-                });
-            }
 
             // Inicializar la carga de películas cuando el DOM esté listo
             document.addEventListener('DOMContentLoaded', loadMovies);
